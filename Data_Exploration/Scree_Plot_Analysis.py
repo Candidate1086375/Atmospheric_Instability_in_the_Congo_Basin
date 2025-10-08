@@ -36,7 +36,7 @@ seasons = {
 }
 
 # Full analysis period for comprehensive scree plot analysis
-years = np.arange(1982, 1984)  # Full 40+ year period for complete analysis
+years = np.arange(1982, 2025) 
 print(f"Using {len(years)} years for scree plot analysis: {years[0]}-{years[-1]}")
 
 # Range of cluster numbers to test
